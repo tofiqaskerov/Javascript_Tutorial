@@ -1,32 +1,25 @@
 
 
-let count = 0;
+let a,b,c;
 
-let increase = document.getElementById("increase")
-let decrease = document.getElementById("decrease")
-let reset = document.getElementById("reset")
-let spanCount = document.getElementById("count");
-let btn = document.querySelectorAll(".btn")
+// a = prompt("Enter A Side")
+// a = Number(a);
+// b = prompt("Enter B Side")
+// b = Number(b)
+// c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+// console.log(c);
 
-for (let i = 0; i < btn.length; i++) {
-     btn[i].onclick = (e) =>{
-        let button = e.target.id;
-        switch (button) {
-            case "increase":
-                count++;          
-                spanCount.innerHTML = count
-                break;
-            
-            case "decrease" :
-                count--;            
-                spanCount.innerHTML = count
-                break
-            default:
-               count = 0;
-               spanCount.innerHTML = count
-                break;
-
-            
-        }
-     }
+result = document.getElementById("resultc");
+let btn = document.getElementById("btn");
+btn.onclick = () =>{
+    
+    a = document.getElementById("txta").value
+    b = document.getElementById("txtb").value
+    a = Number(a)
+    b = Number(b)
+    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b,2));
+    console.log(c);
+    result.innerHTML = "C side " + c
 }
+
+
