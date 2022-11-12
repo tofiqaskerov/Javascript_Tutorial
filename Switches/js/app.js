@@ -11,7 +11,7 @@
 */
 
 
-let num1= 20 ;
+let num= 20 ;
 
 switch (num) {
     case 10:
