@@ -8,8 +8,8 @@
 
 /* 
    if statement - a basic form of decision making 
-              if a condition is true, then do something if not,
-               then don't do it
+     if a condition is true, then do something if not,
+      then don't do it
 
 */
 
