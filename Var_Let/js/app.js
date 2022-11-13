@@ -27,4 +27,9 @@ function something(){
 
 something()
 
+
+let s = 534532
+console.log(s);
 console.log(j); // reference error verecek. sebebi function-dan colde cagirmisiq
+
+

@@ -44,3 +44,8 @@ console.log("Enrolled", educate);
 document.getElementById("first").innerHTML = "Hello " + surName;
 document.getElementById("second").innerHTML = "You are " + age + " years old";
 document.getElementById("third").innerHTML = "Unrolled: " + educate;
+
+
+let arr = ["Ruslan", "Tofiq", "Orxan", "Ayxan","Sekine","Senan"]
+var arrs = arr.splice(0, 2, "Murad", "ewrgarg")
+console.log(arrs);
