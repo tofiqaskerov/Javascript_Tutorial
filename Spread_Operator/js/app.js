@@ -15,7 +15,7 @@
 */
 
 
-let numbers = [1,2,4,8,9,33,46,75,]
+let numbers = [1,2,4,8,9,33,46,75]
 
 let maxNum = Math.max(...numbers)
 console.log(maxNum);
