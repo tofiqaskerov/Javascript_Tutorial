@@ -20,3 +20,4 @@ adults.forEach(e => {
 function checkAge(e){
    return e > 30
 }
+
