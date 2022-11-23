@@ -13,22 +13,30 @@
 */
 
 
-let nums = [1,4,8,9,2];
+let nums = [1, 4, 8, 9, 2];
 let squares = nums.map(square)
 let cubes = nums.map(cube)
 
-function cube(e){
-    return e*e*e
+function cube(e) {
+    return e * e * e
 }
-function square(e){ 
-    return e*e
+
+function square(e) {
+    return e * e
 }
-squares.forEach((e) =>{
+squares.forEach((e) => {
     console.log(e);
 })
 console.log("-------------------");
-cubes.forEach((e) =>{
+cubes.forEach((e) => {
     console.log(e);
 })
 
- 
+
+const users = ["TOFIQ", "SaKina", "rUslan", "aykhaN"]
+
+const newUsers = users.map(u => {
+    return{userName: u, shortName: `${u[0]}.`, newName: `${u[0].toUpperCase()}${u.slice(1).toLowerCase()}`};
+})
+
+console.log(newUsers);
