@@ -15,7 +15,7 @@
 const car1 = {
     model: "Mustang",
     color: "red",
-    year: 2023,
+    year: 2023,  
     drive: function(){
         console.log("Your Drive the car1");
     },
@@ -23,6 +23,8 @@ const car1 = {
         console.log("You step on the brakes");
     }
 }
+
+
 
 
 console.log(car1);
