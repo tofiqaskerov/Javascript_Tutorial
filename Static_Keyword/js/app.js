@@ -36,7 +36,6 @@ const car6 = new Car("Tesla")
 
 console.log(Car.numberOfCars);
 console.log(car3.model);
-
 car1.startRace()
 car1.finishRace()
 
