@@ -14,7 +14,6 @@ const tofiq = new Users("Tofiq", 19, "Azerbaijan");
 const sakina = new Users("Sakina", 20, "Azerbaijan");
 const ruslan = new Users("ruslan", 23, "Azerbaijan");
 const ayxan = new Users("ayxan", 21, "Azerbaijan" );
-
 changeNationality(tofiq)
 changeAge(tofiq)
 displayInfo(tofiq)
